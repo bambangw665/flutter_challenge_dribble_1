@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_challenge_dribble_1/presentation/homepage_screen.dart';
+import 'package:flutter_challenge_dribble_1/presentation/payment_screen.dart';
+
 
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomePage(),
+      home: PaymentScreen(),
     );
   }
 }
